@@ -66,3 +66,20 @@ int main()
         }
     }
 }
+
+
+
+
+
+/*
+
+Semaphore : A semaphore S is an integer variable that can be accessed only through two standard 
+operations :
+wait() - The wait() operation reduces the value of semaphore by 1
+signal() - The signal() operation increases its value by 1.
+Semaphores are of two types:
+Binary Semaphore – This is similar to mutex lock but not the same thing. It can have only 
+two values – 0 and 1. Its value is initialized to 1. It is used to implement the solution of 
+critical section problem with multiple processes.
+Counting Semaphore – Its value can range over an unrestricted domain. It is used to 
+control access to a resource that has multiple instances.    */
