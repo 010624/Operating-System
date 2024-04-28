@@ -49,3 +49,18 @@ int main()
  return 0; 
 }
 
+
+
+
+
+/* 
+If the optimal algorithm is not feasible, perhaps an approximation to the optimal algorithm is
+possible. The key distinction between FIFO and OPT algorithm is that FIFO algorithm uses the
+time when a page was brought into memory while OPT algorithm uses the time when the page is to
+be used for the longest period of time .This approach is also used in LRU algorithm .
+LRU replacement associates with each page the time of that pages last use .When a page must be
+replaced LRU chooses that page that has not been used for longest period of time . This strategy is
+optimal page replacement algorithm looking backward in time, rather than forward.
+If we set SR be the reverse of reference string S then page fault rate for LRU algorithm on S is the
+same page fault rate on SR   */
+
