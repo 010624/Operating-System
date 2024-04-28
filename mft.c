@@ -51,3 +51,14 @@ printf("\nThe tot no of fragmentation is:%d",f);
 return 0; 
 }
 
+
+
+
+/*
+–> MFT (Multiprogramming with a Fixed number of Tasks) is one of the old memory
+management techniques in which the memory is partitioned into fixed size partitions and
+each job is assigned to a partition. The memory assigned to a partition does not change.
+Memory is divided into several fixed-size partitions.Each partition may contain exactly one
+process/task.Boundaries for partitions are set at boot time and arenot movable.An input
+queue per partition.The degree of multiprogramming is bound by the number of partitions. */
+
