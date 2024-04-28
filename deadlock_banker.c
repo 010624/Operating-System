@@ -49,3 +49,22 @@ void eat(int phil)
 {
 printf("\nPhilosopher %d is eating",phil);
 }
+
+
+
+
+/*
+Several data structures must be maintain to implement the Bankers algorithm. These data 
+structures encode the state of the resource-allocation system. Let n be the no. of process in the 
+system and m be the no. of resources type. We need the following data structures:
+1. Available: A vector of length n indicates the no. of available resources of each type. If 
+[available] = k, there are k instances of resource type Rj available. 
+2. Max: An n x m matrix defines the maximum demand of each process. If max [i, j] = k, 
+then Pi may request almost k instances of resource type 
+Rj. 
+3. Allocation: An n x m matrix defines the no. of resources of each type currently allocated 
+to each process. If allocation [i, j] = k, then process Pi is currently allocated k instance of 
+resource type Rj. 
+4. Need: An n x m matrix indicates the remaining resource need of each process. If need [i, 
+j] = k, then Pi may need k more instances of resource type Rj to complete this task. 
+Need [i, j] = max [i, j] – allocation [i, j] */
