@@ -57,3 +57,20 @@ printf("\n\nAverage Waiting Time=%d",avg_wt);
 printf("\nAverage Turnaround Time=%d\n",avg_tat);
 return 0;
 }
+
+
+
+
+
+/*
+ this scheduling is based on the priority of the processes. The
+process which have the higher priority will get the CPU first. whereas jobs with equal priorities are
+carried out on a round-robin or FCFS basis.
+This scheduling is of two types:-
+1. Non preemptive
+2. Preemptive
+characteristics:-
+1. It schedules the process based on the priority of the processes.
+2. Lower the number higher the priority.
+3. If the two or more processes have the same priority then we schedules on the basis of FCFS.
+4. Major problem with priority scheduling is problem of starvation.   */
