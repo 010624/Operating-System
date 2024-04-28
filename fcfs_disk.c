@@ -49,3 +49,21 @@ int main()
  return 0; 
 } 
 
+
+
+
+
+
+/*
+10)
+Disk Scheduling is the process of deciding which of the cylinder request is in the
+ready queue is to be accessed next.The access time and the bandwidth can be
+improved by scheduling the servicing of disk I/O requests in good order.The access
+time has two major components: Seek time and Rotational Latency.Seek time is the
+time for disk arm to move the heads to the cylinder containing the desired sector.
+FirstComeFirstServe(FCFS)
+FCFS is the simplest disk scheduling algorithm. As the name suggests, this algorithm
+entertains requests in the order they arrive in the disk queue. The algorithm looks very fair
+and there is no starvation (all requests are serviced sequentially) but generally, it does not
+provide the fastest service.     */
+
