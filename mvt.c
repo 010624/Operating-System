@@ -27,3 +27,13 @@ printf("memory is not allocated for process%d",i+1);
 printf("\nexternal fragmentation for this process is:%d",m2); } 
 } 
 
+
+
+
+/*
+–>MVT (Multiprogramming with a Variable number of Tasks) is the memory management
+technique in which each job gets just the amount of memory it needs. That is, the
+partitioning of memory is dynamic and changes as jobs enter and leave the system. MVT
+is a more “efficient” user of resources. In MVT there is no internal fragmentation. Due to
+variable size process this method is more flexible than MFT. Such that there is no size
+limitation with the for the processes. */
